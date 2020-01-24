@@ -1,6 +1,6 @@
-# DSA
+# go-data-structures
 
-Implementations of varipus basic data structures and algorithms in Golang done as part of learning the language.
+Implementations of various basic data structures and algorithms in Golang done as part of learning the language.
 
 Includes:
 * linked list
