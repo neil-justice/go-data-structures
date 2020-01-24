@@ -1,4 +1,4 @@
-package linkedList
+package linkedlist
 
 import (
 	"testing"
@@ -37,7 +37,7 @@ func TestGet(t *testing.T) {
 		{CreateLinkedList("a", "b", "c"), "", false, 3},
 	}
 	for _, c := range cases {
-		got, ok := c.list.head.Get(c.index)
+		got, ok := c.list.Get(c.index)
 		if got != c.want || ok != c.ok {
 			t.Errorf("Get(%d) == (%s, %t) want (%s, %t)", c.index, got, ok, c.want, c.ok)
 		}
